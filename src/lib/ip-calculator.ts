@@ -19,8 +19,13 @@ export function ipToLong(ip: string): number {
   if (parts.length !== 4 || parts.some((p) => isNaN(p) || p < 0 || p > 255)) {
     throw new Error("Invalid IPv4 address");
   }
-  const [a, b, c, d] = parts;
-  return ((a << 24) | (b << 16) | (c << 8) | d) >>> 0;
+  return (
+    ((parts[0]! << 24) |
+      (parts[1]! << 16) |
+      (parts[2]! << 8) |
+      parts[3]!) >>>
+    0
+  );
 }
 
 export function longToIp(long: number): string {
