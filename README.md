@@ -1,6 +1,6 @@
 # NetCalc Pro
 
-uild a modern cybersecurity web app called "NetCalc Pro". Use React and Tailwind CSS. Features: - IPv4 address input - CIDR slider (0–32) - Calculate subnet mask - Network address - Broadcast address - First usable IP - Last usable IP - Total hosts - Usable hosts - IP class detection - Copy result button - Dark blue cybersecurity dashboard with responsive design Everything must work entirely in the browser using JavaScript.
+Build a modern cybersecurity web app called "NetCalc Pro". Use React and Tailwind CSS. Features: - IPv4 address input - CIDR slider (0–32) - Calculate subnet mask - Network address - Broadcast address - First usable IP - Last usable IP - Total hosts - Usable hosts - IP class detection - Copy result button - Dark blue cybersecurity dashboard with responsive design Everything must work entirely in the browser using JavaScript.
 
 This project was built with [Lovable](https://lovable.dev).
 
